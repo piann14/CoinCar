@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="homeScreen">
+        <h1>Game Gajelas</h1>
+        <div id="scoreBoard">
+            <p id="highScore">High Score: 0</p>
+            <p id="developerInfo">Developer by:Favian Rafif</p>
+        </div>
+        <button id="playButton">Start the Game</button>
+    </div>
+
+    <!-- Kontainer Game -->
+    <div id="gameContainer">
+        <div id="road">
+            <!-- Jalan, mobil, coin, dll akan ditampilkan di sini -->
+            <div id="car"></div>
+            <div id="coin"></div>
+            <div id="enemyCar"></div>
+        </div>
+        <div id="score">Score: 0</div>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="gameOver">
+        <h2>Game Over</h2>
+        <div id="finalScore"></div>
+        <button id="restartButton">Restart</button>
+        <button id="homeButton">Back to Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
